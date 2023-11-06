@@ -1,6 +1,5 @@
-// `app/dashboard/page.tsx` is the UI for the `/dashboard` URL
-import Link from 'next/link'
+const Dashboard = () => {
+  return <div>This is Dashboard Route</div>;
+};
 
-export default function Page() {
-    return <Link href="/setting">Dashboard</Link> 
-  }
+export default Dashboard;

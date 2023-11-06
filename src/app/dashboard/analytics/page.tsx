@@ -1,7 +1,6 @@
-function Analytics() {
-    return(
-        <div>
-           Analytics 
-        </div>
-    )
-} export default Analytics
+
+const Analytics = () => {
+    return <div>Analytics</div>;
+  };
+  
+  export default Analytics;
